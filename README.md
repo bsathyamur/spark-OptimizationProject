@@ -18,6 +18,6 @@
 
 ## Performace outcomes
 
-The spark code is optimized and execution completes within 2.5s instead of 5 seconds as shown below:
+The spark code is optimized and execution completes within 2.5s instead of 5.3 seconds as shown below:
 
 ![img1](https://github.com/bsathyamur/spark-OptimizationProject/blob/main/performance.png)
