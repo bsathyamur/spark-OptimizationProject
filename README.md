@@ -12,7 +12,8 @@
 ## Performance tuning done
 
 1. repartition based on month column since we need to finally group the count based on question_id and month. This will avoid unnecessary shuffles
-    answers_month = answers_month.repartition(col("month"))
+    
+answers_month = answers_month.repartition(col("month"))
     
 2. Enabled AQE (Adaptive Query Execution) to True
 
